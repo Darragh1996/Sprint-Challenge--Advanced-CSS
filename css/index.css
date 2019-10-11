@@ -332,7 +332,16 @@ footer {
   .home .walk .walk-text {
     width: 100%;
   }
-  .home .walk .walk-text .btn {
+  .home .walk .walk-img {
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+  }
+  .home .form-container {
+    width: 90%;
+    margin: -10% auto 5% auto;
+  }
+  .home .btn {
     width: 100%;
     color: white;
     background-color: #22283a;
@@ -341,13 +350,6 @@ footer {
     border-radius: 10px;
     font-size: 2rem;
     border: 1px solid #22283a;
-  }
-  .home .walk .walk-img {
-    width: 100%;
-    height: auto;
-    margin: 2% auto;
-  }
-  .home .form-container {
-    margin: -10% auto 5% auto;
+    font-size: 3rem;
   }
 }
