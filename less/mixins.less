@@ -6,7 +6,7 @@
   flex-wrap: @wrap;
 }
 
-.btn-mixin(@width, @color, @bg-color, @padding-tb, @padding-lr) {
+.btn-mixin(@width, @color, @bg-color, @padding-tb, @padding-lr, @border-color) {
   width: @width;
   color: @color;
   background-color: @bg-color;
@@ -14,4 +14,5 @@
   padding: @padding-tb @padding-lr;
   border-radius: 10px;
   font-size: 2rem;
+  border: 1px solid @border-color;
 }

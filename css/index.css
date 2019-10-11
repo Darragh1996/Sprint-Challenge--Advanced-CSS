@@ -262,6 +262,17 @@ footer {
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 2rem;
+  border: 1px solid #22283a;
+}
+.home .walk .walk-text .btn:hover {
+  width: 40%;
+  color: #22283a;
+  background-color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 2rem;
+  border: 1px solid #22283a;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -300,6 +311,7 @@ footer {
     padding: 30px 15px;
     border-radius: 10px;
     font-size: 2rem;
+    border: 1px solid #22283a;
   }
   .home .walk .walk-img {
     width: 100%;

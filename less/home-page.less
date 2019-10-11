@@ -60,7 +60,12 @@
       }
 
       .btn {
-        .btn-mixin(40%, white, #22283a, 10px, 15px);
+        .btn-mixin(40%, white, #22283a, 10px, 15px, #22283a);
+
+        &:hover {
+          .btn-mixin(40%, #22283a, white, 10px, 15px, #22283a);
+        }
+
       }
     }
 
@@ -102,7 +107,7 @@
         width: 100%;
 
         .btn {
-          .btn-mixin(100%, white, #22283a, 30px, 15px);
+          .btn-mixin(100%, white, #22283a, 30px, 15px, #22283a);
         }
       }
 
