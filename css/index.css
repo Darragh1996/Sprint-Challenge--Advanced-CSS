@@ -266,3 +266,28 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+  }
+  .home .walk .walk-text .btn {
+    width: 100%;
+    color: white;
+    background-color: #22283a;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 2rem;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+  }
+}
