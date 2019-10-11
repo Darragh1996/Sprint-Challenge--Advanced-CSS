@@ -168,6 +168,8 @@ p {
   width: 100%;
   padding: 1% 0;
   background-color: #f6f5f6;
+  position: fixed;
+  top: 0;
 }
 .navbar h1 {
   font-size: 5rem;
@@ -215,6 +217,7 @@ footer {
   padding: 0 15px;
 }
 .home .intro img {
+  margin-top: 18%;
   border-radius: 5px;
   width: 100%;
 }
