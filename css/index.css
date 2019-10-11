@@ -165,7 +165,7 @@ p {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 30%;
+  width: 100%;
   padding: 1% 0;
   background-color: #f6f5f6;
 }
@@ -179,7 +179,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
-  width: 65%;
+  width: 40%;
   font-size: 1.6rem;
   margin-top: 2%;
 }
@@ -187,11 +187,16 @@ p {
   text-decoration: none;
   color: black;
 }
-.navbar nav a:first-of-type {
-  margin-left: 30%;
+@media (max-width: 1200px) {
+  .navbar nav {
+    width: 80%;
+  }
 }
-.navbar nav a:last-of-type {
-  margin-right: 30%;
+@media (max-width: 500px) {
+  .navbar nav {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 footer {
   color: #22283B;
@@ -211,6 +216,7 @@ footer {
 }
 .home .intro img {
   border-radius: 5px;
+  width: 100%;
 }
 .home .space-images {
   display: flex;
@@ -267,11 +273,21 @@ footer {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
+  .home .space-images img {
+    width: 100%;
+  }
+  .home .space-images img:nth-of-type(2) {
+    display: none;
+  }
+  .home .space-images img:nth-of-type(3) {
+    display: none;
+  }
   .home .walk {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     flex-wrap: nowrap;
+    width: 100%;
   }
   .home .walk .walk-text {
     width: 100%;
@@ -281,7 +297,7 @@ footer {
     color: white;
     background-color: #22283a;
     text-align: center;
-    padding: 10px 15px;
+    padding: 30px 15px;
     border-radius: 10px;
     font-size: 2rem;
   }

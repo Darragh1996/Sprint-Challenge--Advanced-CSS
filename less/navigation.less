@@ -1,7 +1,8 @@
 // Navigation code here
 .navbar {
   .flex-style(row, center, wrap);
-  padding: 0 30%;
+  width: 100%;
+//   padding: 0 30%;
   padding: 1% 0;
   background-color: #f6f5f6;
 
@@ -13,21 +14,24 @@
 
   nav {
     .flex-style(row, space-between, nowrap);
-    width: 65%;
+    width: 40%;
     font-size: 1.6rem;
     margin-top: 2%;
 
     a {
       text-decoration: none;
       color: black;
-
-      &:first-of-type {
-        margin-left: 30%;
-      }
-
-      &:last-of-type {
-        margin-right: 30%;
-      }
     }
+
+    @media @laptop {
+            width: 80%;
+    }
+
+    @media @mobile {
+            width: 100%;
+            padding: 0 20px;;
+            // font-size: 1rem;
+    }
+
   }
 }

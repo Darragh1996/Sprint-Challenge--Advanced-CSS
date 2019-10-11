@@ -12,6 +12,7 @@
 
     img {
       border-radius: 5px;
+      width: 100%;
     }
   }
 
@@ -77,14 +78,31 @@
 
   //mobile view
   @media @mobile {
+    .space-images {
+
+      img {
+        width: 100%;
+      }
+
+      img {
+        &:nth-of-type(2) {
+          display: none;
+        }
+        &:nth-of-type(3) {
+          display: none;
+        }
+      }
+    }
+
     .walk {
       .flex-style(column-reverse, center, nowrap);
+      width: 100%;
 
       .walk-text {
         width: 100%;
 
         .btn {
-          .btn-mixin(100%, white, #22283a, 10px, 15px);
+          .btn-mixin(100%, white, #22283a, 30px, 15px);
         }
       }
 
