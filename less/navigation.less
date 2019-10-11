@@ -22,7 +22,12 @@
 
     a {
       text-decoration: none;
-      color: black;
+      .a-color(black);
+
+        &:hover {
+            .a-color(red);
+        }
+
     }
 
     @media @laptop {

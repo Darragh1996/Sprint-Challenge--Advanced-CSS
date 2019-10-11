@@ -188,6 +188,11 @@ p {
 .navbar nav a {
   text-decoration: none;
   color: black;
+  transition: 0.5s;
+}
+.navbar nav a:hover {
+  color: red;
+  transition: 0.5s;
 }
 @media (max-width: 1200px) {
   .navbar nav {
