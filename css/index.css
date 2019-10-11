@@ -292,6 +292,7 @@ footer {
   border: 1px solid #22283a;
 }
 .home .form-container {
+  font-size: 1.6rem;
   width: 100%;
   padding: 5%;
   margin: -5% auto 3% auto;
@@ -346,7 +347,7 @@ footer {
     color: white;
     background-color: #22283a;
     text-align: center;
-    padding: 30px 15px;
+    padding: 20px 10px;
     border-radius: 10px;
     font-size: 2rem;
     border: 1px solid #22283a;
