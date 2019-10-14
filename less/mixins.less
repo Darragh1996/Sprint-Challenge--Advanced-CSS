@@ -1,1 +1,23 @@
 // Mixins Here
+.flex-style(@flex-d; @justify; @wrap) {
+  display: flex;
+  flex-direction: @flex-d;
+  justify-content: @justify;
+  flex-wrap: @wrap;
+}
+
+.btn-mixin(@width, @color, @bg-color, @padding-tb, @padding-lr, @border-color) {
+  width: @width;
+  color: @color;
+  background-color: @bg-color;
+  text-align: center;
+  padding: @padding-tb @padding-lr;
+  border-radius: 10px;
+  font-size: 2rem;
+  border: 1px solid @border-color;
+}
+
+.a-color(@color) {
+    color: @color;
+    transition: 0.5s;
+}

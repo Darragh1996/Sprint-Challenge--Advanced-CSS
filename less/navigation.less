@@ -1,1 +1,44 @@
 // Navigation code here
+.navbar {
+  .flex-style(row, center, wrap);
+  width: 100%;
+//   padding: 0 30%;
+  padding: 1% 0;
+  background-color: rgba(246, 245, 246, 0.9);
+  position: fixed;
+  top: 0;
+
+  h1 {
+    font-size: 5rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  nav {
+    .flex-style(row, space-between, nowrap);
+    width: 40%;
+    font-size: 1.6rem;
+    margin-top: 2%;
+
+    a {
+      text-decoration: none;
+      .a-color(black);
+
+        &:hover {
+            .a-color(red);
+        }
+
+    }
+
+    @media @laptop {
+            width: 80%;
+    }
+
+    @media @mobile {
+            width: 100%;
+            padding: 0 20px;;
+            // font-size: 1rem;
+    }
+
+  }
+}
